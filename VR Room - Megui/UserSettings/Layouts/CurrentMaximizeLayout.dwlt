@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 913
+  controlID: 4021
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 914
+  controlID: 4022
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 898
+  controlID: 4023
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 320.4}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 32fbffff18710000
@@ -313,8 +313,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffset: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -335,7 +335,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -505,9 +505,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.434685, y: 1.7052205, z: 0.9796954}
+    m_Target: {x: -0.4234369, y: -0.9632029, z: 0.13387688}
     speed: 2
-    m_Value: {x: -0.434685, y: 1.7052205, z: 0.9796954}
+    m_Value: {x: -0.4234369, y: -0.9632029, z: 0.13387688}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -554,13 +554,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.27849084, y: -0.6617241, z: 0.29146367, w: 0.6322038}
+    m_Target: {x: -0.3637228, y: -0.6066574, z: 0.36414334, w: -0.60592693}
     speed: 2
-    m_Value: {x: 0.27848127, y: -0.6617014, z: 0.29145366, w: 0.6321821}
+    m_Value: {x: -0.3637091, y: -0.60663456, z: 0.36412963, w: -0.6059041}
   m_Size:
-    m_Target: 1.9331695
+    m_Target: 1.5867404
     speed: 2
-    m_Value: 1.9331695
+    m_Value: 1.5867404
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -654,23 +654,23 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Samples/XR Interaction Toolkit/2.0.2/XR Device Simulator
+    - Assets/_Course Library/_Prefabs/VR/Reticles
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Samples/XR Interaction Toolkit/2.0.2/XR Device Simulator
+  - Assets/_Course Library/_Prefabs/VR/Reticles
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Megui\Desktop\Proyects\Create-with-VR_2021LTS\VR Room
     - Megui
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 559.80005}
-    m_SelectedIDs: 92800000
-    m_LastClickedID: 32914
-    m_ExpandedIDs: 00000000ea770000ec770000ee770000f0770000f277000092790000b6790000
+    scrollPos: {x: 0, y: 191.80002}
+    m_SelectedIDs: b6990000
+    m_LastClickedID: 39350
+    m_ExpandedIDs: 00000000ea770000ec770000ee770000f0770000f2770000a4790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -723,9 +723,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 44faffff
-    m_LastClickedInstanceID: -1468
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: b4f8ffff
+    m_LastClickedInstanceID: -1868
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300006e7d00000a770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -750,7 +750,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 59.40001}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 1
   m_DirectoriesAreaWidth: 207
@@ -844,8 +844,8 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1468
-  m_LastVerticalScrollValue: 162
+  m_LastInspectedObjectInstanceID: -1868
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
