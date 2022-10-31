@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: -1
+  controlID: 10806
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,18 +46,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 289.6
-    y: 73.6
+    x: 290.6
+    y: 19
     width: 881.2001
     height: 283.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - C:\Users\Megui\Desktop\Proyects\Create-with-VR_2021LTS\VR Room - Megui\Library\PlayModeViewStates\072c4b46f5cbeeb418398eb3e89fe6bf
   m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
+  m_ShowGizmos: 1
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
   m_TargetSize: {x: 881.2001, y: 262.8}
@@ -67,7 +69,7 @@ MonoBehaviour:
   m_EnterPlayModeBehavior: 1
   m_UseMipMap: 0
   m_VSyncEnabled: 0
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
@@ -98,25 +100,25 @@ MonoBehaviour:
       y: 21
       width: 881.2001
       height: 262.8
-    m_Scale: {x: 3, y: 3}
-    m_Translation: {x: 440.60016, y: 131.4}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 440.60004, y: 131.4}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -146.86671
-      y: -43.8
-      width: 293.73337
-      height: 87.6
+      x: -440.60004
+      y: -131.4
+      width: 881.2001
+      height: 262.8
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1101.5001, y: 354.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
+  m_XRRenderMode: -1
   m_RenderTexture: {fileID: 0}
 --- !u!114 &3
 MonoBehaviour:
@@ -142,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: -1
+  controlID: 10807
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: -1
+  controlID: 10776
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 289.6
     height: 304.8
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -225,10 +227,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 25.200012}
-      m_SelectedIDs: ea730000
-      m_LastClickedID: 29674
-      m_ExpandedIDs: 32fbffff3e700000d27100006c72000024730000ea730000
+      scrollPos: {x: 0, y: 377.2}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 7c59ffff985fffff6e6bffffacf2ffff32fbffffcc7f0000a8800000aaef0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -505,9 +507,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.9839074, y: -0.2576821, z: 1.5542877}
+    m_Target: {x: -1.576386, y: -0.7747831, z: -1.4728624}
     speed: 2
-    m_Value: {x: 0.9839074, y: -0.2576821, z: 1.5542877}
+    m_Value: {x: -1.576386, y: -0.7747831, z: -1.4728624}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -554,13 +556,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.29865098, y: -0.5855704, z: 0.24543343, w: -0.7125234}
+    m_Target: {x: 0.10044038, y: -0.89900804, z: 0.31760815, w: 0.28432766}
     speed: 2
-    m_Value: {x: -0.29864916, y: -0.5855668, z: 0.24543194, w: -0.71251905}
+    m_Value: {x: 0.10043934, y: -0.89899874, z: 0.31760484, w: 0.2843247}
   m_Size:
-    m_Target: 1.8505611
+    m_Target: 2.028993
     speed: 2
-    m_Value: 1.8505611
+    m_Value: 2.028993
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -604,8 +606,8 @@ MonoBehaviour:
     y: 304.8
     width: 1172.8
     height: 418
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -654,13 +656,13 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Course Library/Audio/FX
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Course Library/Audio/FX
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Megui\Desktop\Proyects\Create-with-VR_2021LTS\VR Room
     - Megui
@@ -668,9 +670,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 32800000
-    m_LastClickedID: 32818
-    m_ExpandedIDs: 00000000167d0000187d00001a7d00001c7d00001e7d0000207d0000227d0000247d0000de7f0000
+    m_SelectedIDs: de7e0000
+    m_LastClickedID: 32478
+    m_ExpandedIDs: 000000003c7d00003e7d0000407d0000427d0000447d0000467d0000d87e0000ee7e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -698,7 +700,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000167d0000187d00001a7d00001c7d00001e7d0000207d0000227d0000247d0000de7f0000
+    m_ExpandedIDs: 000000003c7d00003e7d0000407d0000427d0000447d0000467d0000d87e0000ee7e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -723,8 +725,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ea730000
-    m_LastClickedInstanceID: 29674
+    m_SelectedInstanceIDs: 4c57ffff
+    m_LastClickedInstanceID: -43188
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300006e7d00000a770000
     m_RenameOverlay:
@@ -776,9 +778,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 696
+    y: 378.4
     width: 1171.8
-    height: 79.39996
+    height: 397
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -802,8 +804,8 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 722.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -844,7 +846,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: -43188
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
