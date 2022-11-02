@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 3668
+  controlID: 4868
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 3669
+  controlID: 4869
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 3670
+  controlID: 4870
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,10 +227,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 83.599976}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fec7ffffb4c8ffff64cdffff38d0fffff2d0ffff7ed8ffff26f7ffff32fbffff2e72000060990000649900008c9a00002a9b0000089d0000289d00006c9d0000
+      m_ExpandedIDs: b4b3fffffec7ffffb4c8ffff64cdffff38d0fffff2d0ffff7ed8ffff26f7ffff32fbffff2e720000609900008c9a00002a9b0000089d0000289d00006c9d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -560,9 +560,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.2298061, y: -0.16834475, z: 0.040394742, w: 0.95771474}
   m_Size:
-    m_Target: 3.3667467
+    m_Target: 4.1786036
     speed: 2
-    m_Value: 3.3667467
+    m_Value: 4.1786036
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -606,8 +606,8 @@ MonoBehaviour:
     y: 334.4
     width: 1172.8
     height: 388.4
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -656,23 +656,23 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Course Library/_Prefabs/Objects/Electronics
+    - Assets/_Course Library/Video
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Course Library/_Prefabs/Objects/Electronics
+  - Assets/_Course Library/Video
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Megui\Desktop\Proyects\Create-with-VR_2021LTS\VR Room
     - Megui
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 709f0000
-    m_LastClickedID: 40816
-    m_ExpandedIDs: 0000000080790000827900008479000086790000887900008a7900008c7900008e79000094790000c4790000
+    scrollPos: {x: 0, y: 8.600006}
+    m_SelectedIDs: a2790000
+    m_LastClickedID: 31138
+    m_ExpandedIDs: 0000000080790000827900008479000086790000887900008a7900008c7900008e790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -725,8 +725,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 229a0000
-    m_LastClickedInstanceID: 39458
+    m_SelectedInstanceIDs: b4b3ffff
+    m_LastClickedInstanceID: -19532
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300006e7d00000a770000
     m_RenameOverlay:
@@ -840,16 +840,17 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 0}
+  m_InstanceIDsLockedBeforeSerialization: b4b3ffff
   m_PreviewResizer:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 39458
-  m_LastVerticalScrollValue: 137.60004
+  m_LastInspectedObjectInstanceID: -19532
+  m_LastVerticalScrollValue: 1512
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_PreviewWindow: {fileID: 0}

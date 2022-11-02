@@ -1404,7 +1404,7 @@ MonoBehaviour:
   m_PlayHapticsOnHoverCanceled: 0
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
-  m_LineType: 2
+  m_LineType: 0
   m_BlendVisualLinePoints: 1
   m_MaxRaycastDistance: 30
   m_RayOriginTransform: {fileID: 0}
@@ -4021,10 +4021,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d4642753971e264fbb20044fa231cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playAtStart: 1
-  videoMaterial: {fileID: 1832823704}
+  playAtStart: 0
+  videoMaterial: {fileID: 1832384769}
   videoClips:
-  - {fileID: 32900000, guid: c675fc381244840f4900887e1b0870d7, type: 3}
+  - {fileID: 32900000, guid: c0e277c23a2153c4cb59b342ac0e7cbc, type: 3}
 --- !u!328 &993082925
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -4755,6 +4755,18 @@ MonoBehaviour:
       - m_Target: {fileID: 82455177}
         m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
         m_MethodName: SetOtherMaterial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 993082924}
+        m_TargetAssemblyTypeName: PlayVideo, Assembly-CSharp
+        m_MethodName: TogglePlayPause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6892,7 +6904,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1830509782}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1832823704
+--- !u!21 &1832384769
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
