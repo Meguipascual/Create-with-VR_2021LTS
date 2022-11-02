@@ -4240,6 +4240,7 @@ Transform:
   - {fileID: 1541284323}
   - {fileID: 1830509783}
   - {fileID: 2022425112}
+  - {fileID: 1977215018}
   - {fileID: 1618031095}
   - {fileID: 837581480}
   - {fileID: 1009815677}
@@ -4250,10 +4251,9 @@ Transform:
   - {fileID: 669533638}
   - {fileID: 1550072759}
   - {fileID: 1231980494}
-  - {fileID: 2023783150}
   - {fileID: 574808706}
   - {fileID: 1942801021}
-  - {fileID: 1977215018}
+  - {fileID: 2023783150}
   - {fileID: 1387324603}
   - {fileID: 367929349}
   - {fileID: 1097720147}
@@ -7141,7 +7141,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 1
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
@@ -7221,6 +7221,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2095700498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095700496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e503ea6418d27594caa33b93cac1b06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableSpatialization: 1
+  gain: 0
+  useInvSqr: 0
+  near: 0.25
+  far: 250
+  volumetricRadius: 0
+  reverbSend: 0
+  enableRfl: 1
 --- !u!1001 &2104410401
 PrefabInstance:
   m_ObjectHideFlags: 0
