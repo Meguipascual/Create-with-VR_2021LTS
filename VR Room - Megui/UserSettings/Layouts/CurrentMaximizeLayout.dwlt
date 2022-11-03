@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 13000
+  controlID: 24393
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,9 +46,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 206.6
+    x: 281
     y: 19
-    width: 965.2001
+    width: 890.80005
     height: 448.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -59,17 +59,17 @@ MonoBehaviour:
   m_SerializedViewValues:
   - C:\Users\Megui\Desktop\Proyects\Create-with-VR_2021LTS\VR Room - Megui\Library\PlayModeViewStates\072c4b46f5cbeeb418398eb3e89fe6bf
   m_PlayModeViewName: GameView
-  m_ShowGizmos: 1
+  m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1206.5001, y: 534.5}
+  m_TargetSize: {x: 1113.5, y: 534.5}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 1
   m_UseMipMap: 0
   m_VSyncEnabled: 0
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
@@ -77,8 +77,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -386.08005
-    m_HBaseRangeMax: 386.08005
+    m_HBaseRangeMin: -356.32004
+    m_HBaseRangeMax: 356.32004
     m_VBaseRangeMin: -171.04001
     m_VBaseRangeMax: 171.04001
     m_HAllowExceedBaseRangeMin: 1
@@ -98,23 +98,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 965.2001
+      width: 890.80005
       height: 427.6
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 482.60004, y: 213.8}
+    m_Translation: {x: 445.40002, y: 213.8}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -482.60004
+      x: -445.40002
       y: -213.8
-      width: 965.2001
+      width: 890.80005
       height: 427.6
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1206.5001, y: 560.75}
+  m_LastWindowPixelSize: {x: 1113.5, y: 560.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 13001
+  controlID: 24345
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 12985
+  controlID: 24346
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,7 +187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 205.6
+    width: 280
     height: 469.6
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -219,7 +219,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 204.6
+    width: 279
     height: 448.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -227,10 +227,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 596.4}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 48e8feff64eefeff18effeffd4f3feff3e00ffffd600ffff6808fffff4f7ffff32fbffffd47100008a72000034190100661b0100fc1b0100642c0100
+      m_ExpandedIDs: 52b2feff08b3feff9ebafeff48e8feff64eefeff18effeffd4f3feff3e00ffffd600ffff6808fffff4f7ffff32fbffffd47100008a72000034190100661b0100fc1b0100642c0100a0470100064a0100864b0100c04b0100ee4b0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -269,9 +269,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 205.6
+    x: 280
     y: 0
-    width: 967.2001
+    width: 892.80005
     height: 469.6
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -302,9 +302,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 205.6
+    x: 280
     y: 73.6
-    width: 965.2001
+    width: 890.80005
     height: 448.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -315,9 +315,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -101, y: -26}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 0
       id: Tool Settings
       index: 0
       layout: 1
@@ -326,9 +326,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: 149}
+      snapOffset: {x: 0, y: 149}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 0
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -490,7 +490,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -507,9 +507,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.3510069, y: 0.91064, z: 1.495247}
+    m_Target: {x: 1.1738366, y: 0.956307, z: -1.8965384}
     speed: 2
-    m_Value: {x: 1.3510069, y: 0.91064, z: 1.495247}
+    m_Value: {x: 1.1738366, y: 0.956307, z: -1.8965384}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -530,17 +530,17 @@ MonoBehaviour:
   m_Grid:
     xGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -556,17 +556,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+    m_Target: {x: -0.0009924263, y: 0.9885262, z: -0.15091799, w: -0.0065264874}
     speed: 2
-    m_Value: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+    m_Value: {x: -0.0009924244, y: 0.9885243, z: -0.15091771, w: -0.006526475}
   m_Size:
-    m_Target: 0.15981947
+    m_Target: 0.0874341
     speed: 2
-    m_Value: 0.15981947
+    m_Value: 0.0874341
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -606,8 +606,8 @@ MonoBehaviour:
     y: 469.6
     width: 1172.8
     height: 253.19998
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -656,22 +656,22 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Course Library/Scripts/Actions
+    - Assets/_Course Library/Particles
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Course Library/Scripts/Actions
+  - Assets/_Course Library/Particles
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Megui\Desktop\Proyects\Create-with-VR_2021LTS\VR Room
     - Megui
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 159}
-    m_SelectedIDs: f6790000
-    m_LastClickedID: 31222
+    scrollPos: {x: 0, y: 127}
+    m_SelectedIDs: dc790000
+    m_LastClickedID: 31196
     m_ExpandedIDs: 00000000c0790000c2790000c4790000c6790000c8790000ca790000cc790000ce790000de790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -700,7 +700,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c0790000c2790000c4790000c6790000c8790000ca790000cc790000ce790000
+    m_ExpandedIDs: 00000000c0790000c2790000c4790000c6790000c8790000ca790000cc790000ce790000de790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -725,9 +725,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5ee5feff
-    m_LastClickedInstanceID: -72354
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 7ce0fdff
+    m_LastClickedInstanceID: -139140
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300006e7d00000a770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -752,7 +752,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 435.40002}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 1
   m_DirectoriesAreaWidth: 207
@@ -846,7 +846,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -72354
+  m_LastInspectedObjectInstanceID: -139140
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
