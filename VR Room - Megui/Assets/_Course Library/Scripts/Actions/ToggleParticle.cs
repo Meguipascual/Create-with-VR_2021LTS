@@ -8,6 +8,7 @@ public class ToggleParticle : MonoBehaviour
 {
     private ParticleSystem currentParticleSystem = null;
     private MonoBehaviour currentOwner = null;
+    
 
     private void Awake()
     {
@@ -16,12 +17,25 @@ public class ToggleParticle : MonoBehaviour
 
     public void Play()
     {
+        currentParticleSystem .gameObject.SetActive(true);
         currentParticleSystem.Play();
     }
 
     public void Stop()
     {
         currentParticleSystem.Stop();
+        currentParticleSystem.gameObject.SetActive(false);
+    }
+
+    public void Toggle()
+    {
+        if (currentParticleSystem.isPlaying)
+        {
+            Stop();
+        }else
+        {
+            Play();
+        }
     }
 
     public void PlayWithExclusivity(MonoBehaviour owner)
