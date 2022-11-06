@@ -17,14 +17,14 @@ public class ToggleParticle : MonoBehaviour
 
     public void Play()
     {
-        currentParticleSystem .gameObject.SetActive(true);
+        currentParticleSystem.gameObject.tag = "Fire";
         currentParticleSystem.Play();
     }
 
     public void Stop()
     {
+        currentParticleSystem.gameObject.tag = "Untagged";
         currentParticleSystem.Stop();
-        currentParticleSystem.gameObject.SetActive(false);
     }
 
     public void Toggle()

@@ -40,8 +40,6 @@ public class OnVelocity : MonoBehaviour
         float speed = rigidBody.velocity.magnitude;
         hasBegun = HasVelocityBegun(speed);
 
-        Debug.Log(speed);
-
         if (HasVelcoityEnded(speed))
             Reset();
     }

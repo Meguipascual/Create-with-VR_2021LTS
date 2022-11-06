@@ -626,7 +626,7 @@
                     "path": "<XRController>{RightHand}/pointerRotation",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Generic XR Controller;Continuous Move",
+                    "groups": "Generic XR Controller",
                     "action": "Rotation",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -637,7 +637,7 @@
                     "path": "<XRController>{RightHand}/deviceRotation",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Generic XR Controller;Continuous Move",
+                    "groups": "Generic XR Controller",
                     "action": "Rotation",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -670,7 +670,7 @@
                     "path": "<XRController>{RightHand}/pointerPosition",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Generic XR Controller;Continuous Move",
+                    "groups": "Generic XR Controller",
                     "action": "Position",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -681,7 +681,7 @@
                     "path": "<XRController>{RightHand}/devicePosition",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Generic XR Controller;Continuous Move",
+                    "groups": "Generic XR Controller",
                     "action": "Position",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -714,7 +714,7 @@
                     "path": "<XRController>{RightHand}/trackingState",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Generic XR Controller;Continuous Move",
+                    "groups": "Generic XR Controller",
                     "action": "Tracking State",
                     "isComposite": false,
                     "isPartOfComposite": false
