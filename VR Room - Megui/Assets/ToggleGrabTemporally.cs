@@ -7,6 +7,7 @@ public class ToggleGrabTemporally : MonoBehaviour
     private IXRSelectInteractable _xrGrabLayer;
     private int _notGrabbable = 6;
     private int _grabbable = 7;
+    private bool _isGrabbable = true;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +21,9 @@ public class ToggleGrabTemporally : MonoBehaviour
         if (_xrGrabLayer.transform.gameObject.layer == _grabbable)
         {
             _xrGrabLayer.transform.gameObject.layer = _notGrabbable;
+            _isGrabbable = true;
             var componentsInChildren = _xrGrabLayer.transform.gameObject.GetComponentsInChildren<Transform>(includeInactive : true);
-            Debug.Log(componentsInChildren.Length);
+
             if (componentsInChildren.Length == 1)
             {
                 return;
@@ -36,13 +38,14 @@ public class ToggleGrabTemporally : MonoBehaviour
         }
     }
 
-    public void ChangeToDefault()
+    public void ChangeToGrabbable()
     {
         if (_xrGrabLayer.transform.gameObject.layer == _notGrabbable)
         {
             _xrGrabLayer.transform.gameObject.layer = _grabbable;
+            _isGrabbable = true;
             var componentsInChildren = _xrGrabLayer.transform.gameObject.GetComponentsInChildren<Transform>(includeInactive: true);
-            Debug.Log(componentsInChildren.Length);
+
             if (componentsInChildren.Length == 1)
             {
                 return;
@@ -55,5 +58,14 @@ public class ToggleGrabTemporally : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void ToggleGrabbableLayer()
+    {
+        if(!_isGrabbable)
+            ChangeToGrabbable();
+        else
+            ChangeToNotGrabbable();
+
     }
 }

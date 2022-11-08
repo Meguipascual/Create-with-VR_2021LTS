@@ -8,21 +8,31 @@ public class ToggleParticle : MonoBehaviour
 {
     private ParticleSystem currentParticleSystem = null;
     private MonoBehaviour currentOwner = null;
+    private DetectNearlyFire _detectNearlyFire;
     
 
     private void Awake()
     {
         currentParticleSystem = GetComponent<ParticleSystem>();
+        _detectNearlyFire = GetComponentInParent<DetectNearlyFire>();
     }
 
     public void Play()
     {
+        if (_detectNearlyFire != null)
+        {
+            _detectNearlyFire.gameObject.tag = "Fire";
+        }
         currentParticleSystem.gameObject.tag = "Fire";
         currentParticleSystem.Play();
     }
 
     public void Stop()
     {
+        if (_detectNearlyFire != null)
+        {
+            _detectNearlyFire.gameObject.tag = "Untagged";
+        }
         currentParticleSystem.gameObject.tag = "Untagged";
         currentParticleSystem.Stop();
     }
