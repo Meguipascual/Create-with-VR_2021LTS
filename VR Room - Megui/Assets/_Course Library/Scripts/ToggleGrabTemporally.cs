@@ -32,7 +32,8 @@ public class ToggleGrabTemporally : MonoBehaviour
             {
                 foreach (Transform child in componentsInChildren)
                 {
-                    child.gameObject.layer = _notGrabbable;
+                    if(child.gameObject.layer == _grabbable)
+                        child.gameObject.layer = _notGrabbable;
                 }
             }
         }
@@ -54,7 +55,8 @@ public class ToggleGrabTemporally : MonoBehaviour
             {
                 foreach (Transform child in componentsInChildren)
                 {
-                    child.gameObject.layer = _grabbable;
+                    if(child.gameObject.layer == _notGrabbable)
+                        child.gameObject.layer = _grabbable;
                 }
             }
         }
