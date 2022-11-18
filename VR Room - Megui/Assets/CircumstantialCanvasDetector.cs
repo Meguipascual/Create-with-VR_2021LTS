@@ -1,8 +1,8 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections.Generic;
+using System.Collections;
 
 public class CircumstantialCanvasDetector : MonoBehaviour
 {
@@ -32,30 +32,25 @@ public class CircumstantialCanvasDetector : MonoBehaviour
     {
         while (true)
         {
-            _countRayHitResults = Physics.SphereCastNonAlloc(transform.position, _radius, transform.forward, _raycastHitResults, _maxDistance, _layer);
-            //tiene que comprobar si estaba antes dentro
-            //despues si esta dentro no hacer nada y si ha salido invocar onexit
+            _countRayHitResults = Physics.SphereCastNonAlloc(transform.position, _radius, transform.forward, _raycastHitResults, _maxDistance, _layer, QueryTriggerInteraction.UseGlobal);
             
-            
-                if (Search())
+            if (Search())
+            {
+                if (!_wasInside)
                 {
-                    if (!_wasInside)
-                    {
-                        _wasInside = true;
-                        OnEnter.Invoke();
-                        //iniializa
-                    }
+                    _wasInside = true;
+                    OnEnter.Invoke();
                 }
-                else
+            }
+            else
+            {
+                if (_wasInside)
                 {
-                    if (_wasInside)
-                    {
-                        _wasInside = false;
-                        OnExit.Invoke();
-                        //Finaza
-                    }
+                    _wasInside = false;
+                    OnExit.Invoke();
                 }
-            
+            }
+
             yield return new WaitForSeconds(0.1f);
         }
     }
@@ -64,21 +59,17 @@ public class CircumstantialCanvasDetector : MonoBehaviour
     {
         var isInside = false;
 
-        
         for (int i = 0; i < _countRayHitResults; i++)
         {
             if (_raycastHitResults != null)
             {
-                Debug.Log(_raycastHitResults[i].transform.name);
                 if (_raycastHitResults[i].transform.CompareTag("Player"))
                 {
-                    Debug.Log("see the player");
                     isInside = true;
                     i = _raycastHitResults.Length;
                 }
             }
         }
-
         return isInside;
     }
 
