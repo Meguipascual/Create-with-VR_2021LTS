@@ -7,6 +7,8 @@ using UnityEngine.Events;
 public class CircumstantialCanvasDetector : MonoBehaviour
 {
     public float _radius = 1.5f;
+    public float _maxDistance = 1.5f;
+    public LayerMask _layer;
     [Serializable] public class CollisionEvent : UnityEvent<Collision> { }
 
     // When the object enters a collision
@@ -15,12 +17,14 @@ public class CircumstantialCanvasDetector : MonoBehaviour
     // When the object exits a collision
     public UnityEvent OnExit = new UnityEvent();
 
-    private RaycastHit[] _raycastHitResults = new RaycastHit[25];
+    private RaycastHit[] _raycastHitResults;
+    private int _countRayHitResults;
     private bool _wasInside = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        _raycastHitResults = new RaycastHit[200];
         StartCoroutine(SearchCollisions());
     }
  
@@ -28,10 +32,10 @@ public class CircumstantialCanvasDetector : MonoBehaviour
     {
         while (true)
         {
-            var hit = Physics.SphereCastNonAlloc(transform.position, _radius, Vector3.forward, _raycastHitResults, 9);
+            _countRayHitResults = Physics.SphereCastNonAlloc(transform.position, _radius, transform.forward, _raycastHitResults, _maxDistance, _layer);
             //tiene que comprobar si estaba antes dentro
             //despues si esta dentro no hacer nada y si ha salido invocar onexit
-            Debug.Log(hit);
+            
             
                 if (Search())
                 {
@@ -60,12 +64,15 @@ public class CircumstantialCanvasDetector : MonoBehaviour
     {
         var isInside = false;
 
-        if (_raycastHitResults != null)
+        
+        for (int i = 0; i < _countRayHitResults; i++)
         {
-            for (int i = 0; i < _raycastHitResults.Length; i++)
+            if (_raycastHitResults != null)
             {
-                if (_raycastHitResults[i].transform.gameObject.layer == 9)
+                Debug.Log(_raycastHitResults[i].transform.name);
+                if (_raycastHitResults[i].transform.CompareTag("Player"))
                 {
+                    Debug.Log("see the player");
                     isInside = true;
                     i = _raycastHitResults.Length;
                 }
