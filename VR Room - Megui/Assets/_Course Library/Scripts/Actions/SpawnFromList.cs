@@ -40,6 +40,7 @@ public class SpawnFromList : MonoBehaviour
     {
         GameObject newObject = CreateObject();
         ReplaceObject(newObject);
+
     }
 
     private GameObject CreateObject()
@@ -77,5 +78,10 @@ public class SpawnFromList : MonoBehaviour
     {
         if (!spawnPoint)
             spawnPoint = transform;
+    }
+
+    public void RotateYNewObject(int yRotation)
+    {
+        currentObject.transform.rotation = Quaternion.Euler(0, yRotation, 0);
     }
 }
